@@ -84,13 +84,6 @@
     </tfoot>
   </table>
 
-  <img src="my-picture.jpg"
-       width="200px"
-       height="300px"/>
-  <!-- Use img tag to embed pictures in HTML documents.
-  The src attributes references the image file either locally
-  or remotely. The width and height attributes configure the image size. If only width or height is provided, the other scales proportionally    -->
-
   <h2>Image tag</h2>
 
   Loading an image from the internet:<br/>
@@ -103,13 +96,22 @@
 
   <img src="teslabot.jpg"
        height="200px"/>
-  
-  <input  type="text"
-          placeholder="hint"
-          title="tooltip"
-          value="COMEDY"/>
-  <!--	use input tag's text type to declare a single line input field text is default if type is left out. Use placeholder and title to give a hint of what information you're expecting. Optionally initialize the value of the field with value attribute-->
 
+  <h2>Text fields</h2>
+  <form id="text-fields">
+    <label for="text-fields-username">Username:</label>
+    <input id="text-fields-username" placeholder="jdoe"/><br/>
+    <label for="text-fields-password">Password:</label>
+    <input type="password" id="text-fields-password"
+           value="123@#$asd"/><br/>
+    <label for="text-fields-first-name">First name:</label>
+    <input type="text" id="text-fields-first-name"
+           title="John"/><br/>
+    <label for="text-fields-last-name">Last name:</label>
+    <input type="text" id="text-fields-last-name"
+           placeholder="Doe" value="Wonderland"/>
+    <!-- copy rest of form elements here -->
+  </form>
 
 
 
