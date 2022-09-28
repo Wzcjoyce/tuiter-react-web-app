@@ -33,10 +33,22 @@ body{
     font-size: 18px;
 }
 
+.setting::after{
+    background: url(../setting.png);
+    width: 20px;
+    height: 20px;
+    left: 0px;
+}
+
+.gray_font{
+    font-color:
+}
+
 .setting-image{
-    margin-left: 70px;
-    height: 30px;
-    width: 30px;
+    right: 20px;
+    float: right;
+    height: 35px;
+    width: 35px;
 }
 
 .box-gray{
@@ -52,22 +64,26 @@ body{
     font-size: 15px;
 }
 .padding-topic {
-    padding: 10px;
-}
-
-.padding-topic-image {
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 50px;
-}
-
-.padding-topic-text {
     padding: 5px;
 }
 
+.margin-topic {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+.padding-topic-text {
+    padding: 8px;
+}
+
+.float-right-image{
+    right: 16px;
+    float: right;
+}
+
 .font-grey{
-    color:gray;
+    color:rgb(110,118,125);
 }
 
 .topic-subtitle{
@@ -87,13 +103,6 @@ body{
     position: relative;
 }
 
-.topic-image-pos {
-    margin-right: 16px;
-    float: right;
-    position: relative;
-    bottom: 70px;
-}
-
 .topic-image-shape{
     border-radius: 20px;
 }
@@ -110,5 +119,5 @@ body{
 }
 
 .wd-nav-tabs .wd-nav-selected-tabs {
-    border-bottom: solid 4px rgb(29, 161,242)
+    border-bottom: solid 4px rgb(29, 161,242);
 }
