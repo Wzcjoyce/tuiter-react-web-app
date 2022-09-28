@@ -15,15 +15,12 @@ body{
 }
 
 #search-bar-image {
-    url(../search.png) left no-repeat;
-    padding-left: 10px;
-}
-
-.padding-search-bar {
-    padding: 5px;
-}
-
-.search-bar {
+    background-image : url(../search.png);
+    background-position-x: 10px;
+    background-position-y: 5px;
+    background-size: 25px;
+    padding-left: 60px;
+    background-repeat:no-repeat;
     border-radius: 20px;
     background-color: darkgrey;
     color:white;
@@ -33,16 +30,26 @@ body{
     font-size: 18px;
 }
 
-.setting::after{
-    background: url(../setting.png);
-    width: 20px;
-    height: 20px;
-    left: 0px;
+.padding-search-bar {
+    padding: 5px;
 }
 
-.gray_font{
-    font-color:
+/*.search-bar {*/
+/*    border-radius: 20px;*/
+/*    background-color: darkgrey;*/
+/*    color:white;*/
+/*    float: left;*/
+/*    height: 30px;*/
+/*    width: 85%;*/
+/*    font-size: 18px;*/
+/*}*/
+
+.input-image{
+    position: absolute; top: 2px; left: 5px;
+    height: 35px;
+    width: 35px;
 }
+
 
 .setting-image{
     right: 20px;
