@@ -111,12 +111,9 @@ body{
     max-width: 506px;
 }
 .text-max-width2{
-    max-width: 632px;
+    max-width: 640px;
 }
 
-.border-right{
-    right : 0px;
-}
 
 .content-text{
     font-size:15px;
