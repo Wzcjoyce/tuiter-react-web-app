@@ -1,0 +1,151 @@
+body{
+    font-family:"Arial Black";
+    background-color: black;
+    color:white;
+}
+
+.general-border{
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+}
+
+.padding-topic {
+    padding: 5px;
+}
+
+.float-right{
+    right: 16px;
+    float: right;
+    font-size: 16px;
+}
+
+.bookmark-border{
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.bookmark-title{
+    font-size: 20px;
+}
+.bookmark-subtitle{
+    font-size: 13px;
+    color: rgb(47, 51, 54);
+    border-top: 16px;
+}
+
+.bookmark-dot{
+    font-size: 15px;
+    color: rgb(47, 51, 54);
+}
+
+.selected-color{
+    color: rgb(29,161,242);
+}
+
+.avatar-image-size {
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container {
+    border-width: 5px;
+    display: flex;
+}
+
+.float-left{
+    float: left;
+
+}
+
+
+.avatar-image-shape{
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 48px;
+}
+.content-image{
+    width: 504px;
+    height: 264px;
+    vertical-align: top;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.user-name{
+    font-size:15px;
+    color:white;
+    padding-left: 16px;
+    padding-top: 12px;
+    vertical-align: top;
+}
+
+.image-text{
+    font-size: 15px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.all-padding-12px{
+    padding: 12px;
+}
+
+.image-text-padding1{
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom:0px;
+}
+
+.image-text-padding2{
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom:12px;
+}
+
+.user-name-gray{
+    color: rgb(47, 51, 54);
+}
+
+.text-max-width{
+    min-width: 506px;
+    max-width: 506px;
+}
+.text-max-width2{
+    max-width: 632px;
+}
+
+.content-text{
+    font-size:15px;
+    color:white;
+    max-width: 506px;
+    vertical-align: top;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex-container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-right: 12px;
+}
+
+.count-value{
+    font-size: 15px;
+}
+.pink-font{
+    color:deeppink;
+}
+
+

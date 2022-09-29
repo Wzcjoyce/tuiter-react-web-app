@@ -34,15 +34,12 @@ body{
     padding: 5px;
 }
 
-/*.search-bar {*/
-/*    border-radius: 20px;*/
-/*    background-color: darkgrey;*/
-/*    color:white;*/
-/*    float: left;*/
-/*    height: 30px;*/
-/*    width: 85%;*/
-/*    font-size: 18px;*/
-/*}*/
+.float-right{
+    right: 16px;
+    float: right;
+    font-size: 18px;
+}
+
 
 .input-image{
     position: absolute; top: 2px; left: 5px;
