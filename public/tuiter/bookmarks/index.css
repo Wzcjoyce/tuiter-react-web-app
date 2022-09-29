@@ -114,6 +114,10 @@ body{
     max-width: 632px;
 }
 
+.border-right{
+    right : 0px;
+}
+
 .content-text{
     font-size:15px;
     color:white;
