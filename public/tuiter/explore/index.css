@@ -1,0 +1,52 @@
+.body{
+    font-family:"Arial Black";
+    background-color: black;
+    color:white;
+}
+
+.general-border{
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 3px;
+}
+
+.color-deepskyblue{
+    color: deepskyblue;
+}
+
+.color-black{
+    color:black;
+}
+
+.search-bar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border-radius: 50px;*/
+}
+
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+.topic-card-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right{
+    right : 0px;
+}
+
+.padding-right-30 {
+    padding-left: 30px;
+}
+
+.padding-left-50 {
+    padding-left:50px;
+}
+
+.topic-image-size {
+    width: 100px;
+    height: 100px;
+}
