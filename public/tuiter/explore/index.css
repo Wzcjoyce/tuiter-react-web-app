@@ -2,7 +2,7 @@
     font-family:"Arial Black";
     background-color: black;
     color:white;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .general-border{
@@ -26,6 +26,7 @@
     padding-top:2px;
 }
 
+
 .text-padding-top-20{
     padding-top:20px;
 }
@@ -36,7 +37,7 @@
 }
 
 .text-padding-left-10{
-    padding-left:15px;
+    padding-left:10px;
 }
 
 .btn-width{
@@ -56,8 +57,8 @@
     color: black;
 }
 
-.font-size-10{
-    font-size: 10px;
+.font-size-12{
+    font-size: 12px;
 }
 
 
@@ -136,9 +137,9 @@ text-padding-top-10{
 }
 
 .user-image{
-    width : 60px;
-    height : 60px;
-    border-radius:50px;
+    width : 100%;
+    height : 100%;
+    border-radius:50%;
 }
 
 .col.override-width{
@@ -162,7 +163,7 @@ text-padding-top-10{
 
 
 .property-font{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
     color:rgb(77, 81, 82);
 }
@@ -170,6 +171,10 @@ text-padding-top-10{
 .blue-color{
 
     color: #0a53be;
+}
+
+.font-12{
+    font-size: 12px;
 }
 
 .right-text-padding{
@@ -188,8 +193,13 @@ dark-gray_bg {
     font-size:18px;
 }
 
-.fond-size-12{
-    font-size:12px;
+.menu-left-padding{
+
+    padding-left:0px;
+}
+
+.fond-size-10{
+    font-size:14px;
 }
 
 
@@ -201,3 +211,4 @@ dark-gray_bg {
     width: 100px;
     height: 100px;
 }
+
