@@ -62,6 +62,22 @@
     font-size: 12px;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.color-gray{
+    color:grey;
+}
+
+.color-fg-white{
+    color:white;
+}
+
+.blue-color-setting{
+    color: #3ba1e5;
+}
+
 
 .padding-search-bar{
     padding-top: 5px;
@@ -113,7 +129,7 @@ text-padding-top-10{
 
 .form-control.override-bs {
     border-radius: 50px;
-    background-color: #2c3034;
+    background-color: #ffffff;
 }
 
 .dark-gray-bg{

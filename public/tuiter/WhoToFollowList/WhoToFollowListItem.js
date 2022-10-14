@@ -6,11 +6,11 @@ const WhoToFollowListItem = (whos) => {
                         <img class=" user-image" src=${whos.avatarIcon}>
                     </div>
                     <div class = "col-5 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class = "fond-size-10">
+                        <div class = "fond-size-10 color-fg-white">
                             ${whos.userName}
                             <i class="fa fa-check"></i>
                         </div>
-                        <div class = "text-gray fond-size-10">
+                        <div class = " fond-size-10 color-fg-white">
                             ${whos.Handle}
                         </div>
 
