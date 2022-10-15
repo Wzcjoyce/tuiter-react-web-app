@@ -2,7 +2,7 @@ import PostSummaryItem from "./PostSummaryItem.js";
 import posts from "./posts.js";
 
 
-const WhoToFollowList = () => {
+const PostSummaryList = () => {
     return(`
 
 
@@ -14,4 +14,4 @@ const WhoToFollowList = () => {
 
     `);
 }
-export default WhoToFollowList;
+export default PostSummaryList;

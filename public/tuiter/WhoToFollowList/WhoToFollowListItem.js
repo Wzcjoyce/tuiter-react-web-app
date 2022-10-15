@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (whos) => {
     return(`
-            <div class = " padding-all-15 col gray_bg">
+            <div class = "bottom-border padding-all-15 col gray_bg">
                 <div class = "row">
                     <div class = "col-3 col-lg-2 col-xl-2 col-xxl-2">
                         <img class=" user-image" src=${whos.avatarIcon}>

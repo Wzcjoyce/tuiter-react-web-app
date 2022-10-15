@@ -6,7 +6,7 @@ const WhoToFollowList = () => {
     return(`
 
                 <div class = "padding-left-10 text-padding-top-20 col-10 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class = "padding-all-15 col gray_bg padding-radius fond-size-18">
+                    <div class = " bottom-border padding-all-15 col gray_bg padding-radius fond-size-18">
                         Who to Follow
                     </div>
                     ${

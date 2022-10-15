@@ -1,4 +1,4 @@
-const WhoToFollowListItem = (post) => {
+const PostSummaryListItem = (post) => {
     return(`
             <div class = "topic-card-padding general-border">
                 <div class="row">
@@ -23,16 +23,14 @@ const WhoToFollowListItem = (post) => {
                             ${post.title}
                         </div>
                     </div>
+
                     <div class="col-3 col-sm-3 col-md-3 col-lg-4 col-xl-3 col-xxl-3">
                         <img class="card-img-top topic-image-size" src=${post.image} alt="Generic placeholder image">
                     </div>
                     
-                    <div class = " text-gray">
-                           ${post.tuiters} Tuiters
-                    </div>
 
                 </div>
             </div>
  `);
 }
-export default WhoToFollowListItem;
+export default PostSummaryListItem;
