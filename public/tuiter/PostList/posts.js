@@ -1,7 +1,7 @@
 export default [
 
     {
-        userPhoto:"../tesla.png",
+        userPhoto:"../musk_photo.jpeg",
         userName: "Elon Musk",
         at : "@elonmusk",
         link : "",
