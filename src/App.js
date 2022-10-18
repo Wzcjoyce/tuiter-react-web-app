@@ -15,10 +15,7 @@ function App() {
                          element={<Labs/>}/>
                   <Route path="/hello"
                          element={<HelloWorld/>}/>
-                  <Route path="/tuiter"
-                         element={<Tuiter/>}/>
-                  <Route path="/todos"
-                         element={<TodoList/>}/>
+                  <Route path="/tuiter/*" element={<Tuiter/>}/>
               </Routes>
           </div>
       </BrowserRouter>
