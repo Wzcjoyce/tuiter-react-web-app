@@ -20,15 +20,18 @@ const PostItems = (
         }
     }
 ) => {
+
     return(
-        <div className="topic-card-padding general-border">
+        <div className=" general-border">
+            <div className="padding-top-20">
+            </div>
             <div className="row">
                 <div className="col-2 col-lg-2 col-xl-2 col-xxl-2">
                     <img className=" user-image" src={post.userPhoto}/>
                 </div>
                 <div className="col-10 col-lg-10 col-xl-10 col-xxl-10">
                     <div className="fond-size-16">
-                                <span className=" fond-size-16">{post.userName}
+                                <span className=" fond-size-16 bold-text">{post.userName}
                                     <i className="fa fa-check fa-1x"></i>
                                 </span>
                         <span className=" fond-size-16">
@@ -55,37 +58,37 @@ const PostItems = (
                 <div className="col-2 col-lg-2 col-xl-2 col-xxl-2">
                 </div>
 
-                <div className="text-padding-top-20 col-10 col-lg-10 col-xl-10 col-xxl-10">
-                    <div className=" round-image">
-                        <div>
-                            <div className="card">
-                                <img src={post.image} className="card-img-top round-image" alt="..."/>
-                            </div>
-
-
-                            <div id="shared_image_content">
-
-                                <div className="mt-0 mb-1 padding-all-15">
-                                            <span className="color-fg-white">{post.shared_title}
-                                            </span>
+                <div className=" col-10 col-lg-10 col-xl-10 col-xxl-10">
+                    <div className="card-padding">
+                        <div className="general-border">
+                                <div className="">
+                                    <img src={post.image} className=" round-image" alt="..."/>
                                 </div>
 
-                                <div className="text-padding-top padding-all-15-3">
-                                    {post.shared_content}
-                                </div>
+                            {post.shared_link !== "" &&
+                                <div id="shared_image_content">
 
-                                <div className="text-padding-top padding-all-15-3">
-                                    <i className="fa-solid fa-link fa-1x"></i>
-                                    {post.shared_link}
-                                </div>
-                            </div>
+                                    <div className="mt-0 mb-1 padding-top-15 padding-all-15-3">
+                                                <span className="">{post.shared_title}
+                                                </span>
+                                    </div>
 
+                                    <div className="text-padding-top padding-all-15-3">
+                                        {post.shared_content}
+                                    </div>
+
+                                    <div id = "shared_link"  className="text-padding-top padding-all-15-3">
+                                        <i className="fa-solid fa-link fa-1x"></i>
+                                        {post.shared_link}
+                                    </div>
+                                </div>
+                            }
                         </div>
                     </div>
                 </div>
 
 
-                <div className="row text-padding-top-20 ">
+                <div className="row text-padding-top-20 text-padding-bottom-25">
 
                     <div className="col-2 col-lg-2 col-xl-2 col-xxl-2">
                     </div>
@@ -95,7 +98,7 @@ const PostItems = (
                         <span className="padding-left-10">{post.comments}</span>
                     </div>
                     <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                        <i className="fa fa-retweet"></i>
+                        <i className="fa fa-retweet" style={{"color":"gray"}}></i>
                         <span className="padding-left-10">{post.share}</span>
                     </div>
                     <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">

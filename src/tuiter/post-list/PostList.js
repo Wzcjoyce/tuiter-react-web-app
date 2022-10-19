@@ -4,7 +4,7 @@ import postsArray from "./posts.json";
 const PostList = () => {
     return(
     
-        <div className="list-group">
+        <div className="">
             {
                 postsArray.map(post =>
                     <PostItems

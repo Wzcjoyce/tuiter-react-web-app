@@ -1,11 +1,9 @@
 import TodoItem from "./todo-item";
 import todos from "./todos.json";
-import Nav from "../../../nav.js";
 
 const TodoList = () => {
     return(
         <>
-            <Nav/>
             <h3>Todo List</h3>
             <ul>
                 {
