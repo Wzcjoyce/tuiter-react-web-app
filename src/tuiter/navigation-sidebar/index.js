@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = (
     {
@@ -10,35 +11,36 @@ const NavigationSidebar = (
             <a className="list-group-item">Tuiter</a>
             <a className={`list-group-item
                     ${active === 'home'?'active':''}`}>
-                Home
+
+                <Link className = "text-black" to="/tuiter/home">Home</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
-                Explore
+                <Link className = "text-black" to="/tuiter/explore">Explore</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-                Notifications
+                <Link className = "text-black" to="">Notifications</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-                Messages
+                <Link className = "text-black" to="">Messages</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
+                <Link className = "text-black" to="">Bookmarks</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-                Lists
+                <Link className = "text-black" to="">Lists</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                Profile
+                <Link className = "text-black" to="">Profile</Link>
             </a>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-                More
+                <Link className = "text-black" to="">More</Link>
             </a>
         </div>
     );
