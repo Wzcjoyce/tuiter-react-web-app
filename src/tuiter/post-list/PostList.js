@@ -1,13 +1,16 @@
-import PostItems from "./PostItems.js";
-import postsArray from "./posts.json";
+import TuitItems from "./TuitItem.js";
+import postsArray from "./homeposts.json";
+import {useSelector} from "react-redux";
 
 const PostList = () => {
+    // const postsArray = useSelector(
+    //     (state) => state.post);
     return(
     
         <div className="">
             {
                 postsArray.map(post =>
-                    <PostItems
+                    <TuitItems
                         key={post._id} post={post}/> )
             }
         </div>
