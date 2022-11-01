@@ -209,10 +209,11 @@ text-padding-top-10{
 }
 
 .user-image{
-    width : 100px;
-    height: 100px;
+    width : 80px;
+    height: 80px;
     border-radius:50%;
     padding: 8px;
+
 }
 
 .col.override-width{
@@ -297,6 +298,7 @@ dark-gray_bg {
 
 .padding-top-5{
     padding-top:15px;
+    padding-right: 30px;
 }
 
 .padding-bottom-13{
