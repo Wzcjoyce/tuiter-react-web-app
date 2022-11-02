@@ -1,4 +1,7 @@
 import React from "react";
+import {useDispatch} from "react-redux";
+import {deletePost} from "./post-reducer";
+
 const TuitItems = (
     {
         post = {
@@ -18,7 +21,10 @@ const TuitItems = (
         }
     }
 ) => {
-
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deletePost(id));
+    }
     return(
         <div className=" general-border">
             <div className="padding-top-20">
@@ -39,7 +45,8 @@ const TuitItems = (
                                     - {post.time}
                                 </span>
                         <span className=" to-right font-size-22 padding-bottom-13">
-                                    ...
+                                <i className="bi bi-x-lg float-end"
+                                   onClick={() => deleteTuitHandler(post._id)}></i>
                                 </span>
                     </div>
                     <div className=" padding-top-5 fond-size-16">
