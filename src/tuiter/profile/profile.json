@@ -1,14 +1,14 @@
 {
-  "firstName": "Jose",
-  "lastName": "Annunziato",
-  "handle": "@jannunzi",
+  "firstName": "Zuocheng",
+  "lastName": "Wang",
+  "handle": "@wzcChris",
   "profilePicture": "/images/image2.jpeg",
-  "bannerPicture": "/images/image3.png",
-  "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
-  "website": "youtube.com/webdevtv",
-  "location": "Boston, MA",
-  "dateOfBirth": "7/7/1968",
-  "dateJoined": "4/2009",
+  "bannerPicture": "/images/image6.jpg",
+  "bio": "Software Engineer, MSCS Student at Northeastern University, Software Developer, Game Developer, Mobile App developer and Data Analyst",
+  "website": "https://www.linkedin.com/in/zuocheng-wang-518108161/",
+  "location": "Quincy, MA",
+  "dateOfBirth": "11/01/1991",
+  "dateJoined": "9/2022",
   "followingCount": 340,
   "followersCount": 223
 }
