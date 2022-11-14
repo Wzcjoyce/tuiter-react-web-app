@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import {createPost} from "../post-list/post-reducer";
 import {useDispatch} from "react-redux";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
@@ -9,7 +10,7 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createPost(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
     return (
         <div className="row">

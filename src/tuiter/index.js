@@ -9,6 +9,7 @@ import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import PostReducer from "./post-list/post-reducer";
+import HomeTuitsReducer from "./home/HomeTuits-Reducer";
 import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
@@ -16,7 +17,7 @@ import profileState from "./profile/profile-reducer";
 import EditProfileComponent from "./edit-profile";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, post:PostReducer, profile: profileState}});
+    {reducer: {who: whoReducer, tuits: tuitsReducer, post:PostReducer, profile: profileState, HomeTuits: HomeTuitsReducer}});
 
 function Tuiter() {
     return(
