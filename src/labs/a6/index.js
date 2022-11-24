@@ -10,7 +10,7 @@ import TodoList from "./todo/todo-list";
 function Assignment6() {
     return (
         <div>
-            <h1>Assignment 8</h1>
+            <h1>Assignment 9</h1>
 {/*            <TodoList/>
             <ConditionalOutput/>
             <Styles/>
